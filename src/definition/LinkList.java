@@ -1,12 +1,12 @@
 package definition;
 
-import adt.ContactADT;
+import adt.ADT;
 
 import java.util.ArrayList;
 
 
 
-public class ContactList<Person> implements ADT<Person> {
+public class LinkList<Person> implements ADT<Person> {
 
     ArrayList<String> arrayOfNames = new ArrayList<>();
 
